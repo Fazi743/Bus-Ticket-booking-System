@@ -1,0 +1,176 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* Header Area  */
+#header{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: cornflowerblue;
+    /* height: 80px; */
+    padding-top: 1%;
+}
+#logo{
+    display: grid;
+     
+}
+#title{
+    display: grid;
+    text-align: center;
+    
+}
+#login{
+    display: grid;
+     
+}
+
+/* logo picture */
+img{
+    height: 60px;
+    width: 70px;
+    padding-left: 5%;
+    padding-bottom: 10px;
+}
+
+/* Signu=Up button */
+#rg{
+    margin-left: 80%;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
+
+/* Login button */
+#lg{
+    margin-left: 80%;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+     
+}
+#navigation{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    background-color: burlywood;
+    height: 25px;
+}
+
+.nvigL{
+    color: black;
+    padding-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    
+}
+
+#dropbtn{
+    color: black; 
+    padding-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    /* background-color: #f1f1f1; */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: burlywood;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+ 
+
+#farea{
+      background: url(bss.jpeg);
+      background-size: cover;
+      /* background-position: center;  */
+      background-size: contain;
+}
+
+#footer{
+    background-color: slateblue;
+    padding-bottom: 4%;
+    margin-top: 47%;
+    text-align: center;
+}
+
+#ft{
+    color: #000;
+    padding-left: 2%;
+    text-decoration: none;
+    
+}
+
+/* ================================ Hovering effects ================================ */
+
+#navigation a:hover {
+    background-color: cornflowerblue;
+    color: black;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+/* ================================ Risponsive for tablet layout ======================================== */
+
+@media screen and (max-width : 900px) {
+    #navigation{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        background-color: burlywood;
+    }
+    #login{
+        display: grid;
+        margin-right: 20%;     
+    }      
+}
+
+/* ================================ Risponsive for Mobile layout ======================================== */
+
+@media screen and (max-width : 600px) {
+    #navigation{
+    display: grid;
+    grid-template-columns: auto;
+    /* text-align: center; */
+    /* padding-left: 40%; */
+    background-color: burlywood;
+     
+   }
+   #header{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: cornflowerblue;
+    /* display: block; */
+    }
+    #title{
+        display: grid;
+        text-align: center;   
+    }
+    img{
+        height: 60px;
+        width: 80px;
+        margin-left: 40%;
+        }
+    #login{
+        display: grid;
+        margin-right: 40%;
+             
+    }
+    .dropdown-content {
+        background-color: #f1f1f1;
+    }
+     
+}
+
+/* ========================================================================================= */

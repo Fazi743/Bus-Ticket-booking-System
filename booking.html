@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="project in using grid_CSS.css">
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="log.jpg" >
+        </div>
+        <div id="title">
+            <h1>Book Your Ticket</h1>
+        </div>
+    </div>
+
+    <div id="navigation">
+        <a id="home" class="nvigL" href="project in using grid.html">Home</a>
+        <div class="dropdown">
+            <h3 class="nvigL">Dashboard</h3>
+            <div class="dropdown-content">
+              <a href="adminpanel.html">Admin</a>
+              <a href="user.html">User</a>
+              <a href="#">Buses</a>
+              <a href="#">Routes</a>
+              <a href="#">Schedule</a>
+              <a href="#">Fare</a>
+              <a href="#">Available Seats</a>
+            </div>
+          </div>
+          <a id="admin" class="nvigL" href="booking.html" >Booking</a>  
+        <a id="passenger" class="nvigL" href="announcement.html"  >Announcement</a>
+        <a id="About" class="nvigL" href="about.html"  >AboutUs</a> 
+        <a id="contact" class="nvigL" href="contact.html"  >ContactUs</a>
+        <a id="feedback" class="nvigL" href="faq.html" >FAQ</a>
+    </div>
+    
+    <div id="booking" > 
+        <!-- <h1>Book Your Ticket</h1> -->
+        <form id="form">
+        <label for="name" class="lb">Name: </label>
+        <input class="edt" id="name" type="text" placeholder="Enter a Username"><br>
+        <label for="address" class="lb">Address: </label>
+        <input class="edt" id="adres" type="text" placeholder="Enter a Address"><br>
+        <label for="conatct" class="lb">Contact: </label>
+        <input class="edt" id="number" type="text" placeholder="Enter Mobile number"><br>
+        <label for="conatct" class="lb">Routes: </label>
+        <input class="edt" type="search" name="route" id="route" placeholder="search route"><br>
+        <label for="time" class="lb">Time: </label>
+        <input class="edt" id ="timeT" type="time" name="time" id="time"><br>
+        <label for="time" class="lb">Date: </label>
+        <input class="edt" id = "dateT" type="date" name="date" id="date"><br>
+        <label for="seat" class="lb">Book Seat: </label>
+        <input class="edt" id="seat" type="text" placeholder="Enter Seats"><br>
+        <label for="pay" class="lb">Total Ammount: </label>
+        <input class="edt" id="amt" type="text" placeholder="Ammount Pay"><br>
+
+    
+        <input type="submit" id ="submit" value="Confirm">
+        <input type="button" id="print" value="Print">
+        <input type="button" id ="cancel" value="Cancel">
+     
+        </form>
+    </div>
+
+    <div id="footer">
+        <br><br><br>
+        <a id="ft" href="terms">Terms of Service</a>
+        <a id="ft" href="contact">Contact Us</a>
+        <a id="ft" href="about">About Us</a>
+    </div>
+</body>
+</html>

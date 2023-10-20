@@ -1,0 +1,22 @@
+.feedback{
+ margin-top: 50px;
+ font-size: 19px;
+ font-weight: bold;
+}
+H1{
+
+ padding-left: 40%;
+   background-color: green;
+   animation: h1 3s  1s infinite none ease-in;
+}
+ @keyframes h1{
+   0%{
+     color: green;
+   }
+   50%{
+     color: blue;
+   }
+   100%{
+     color: white;
+   }
+ }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link rel="stylesheet" href="Signup_CSS.css">
+ </head>
+<body>
+
+  <form  id="frm" action="SignUp.php" method="POST">
+    <div class="container">
+      <div id="title">
+        <h1>Sign Up Registerbtn Form</h1>
+      </div>
+      
+       
+      <label for="fullname" class="lbl" >Full Name</label>
+      <input type="text" placeholder="Enter full name" name="name" id="name" class="etarea" required><br>
+  
+      <label for="email" class="lbl" >Email</label>
+      <input type="email" placeholder="Enter email" name="email" id="email" class="etarea" ><br>
+
+      <label for="Phone" class="lbl" >Phone</label>
+      <input type="tel" placeholder="Enter Phone number" name="tel" id="tel" class="etarea" required><br>
+      
+      <label for="date" class="lbl" >Date of Birth</label>
+      <input type="date" name="birth" id="dob" class="etarea" required><br>
+
+      <br><label for="gender" class="lbl" >Gender</label>
+      <input type="radio" class="radio" name="gender" id="male" >
+      <label for="text" class="lb_r">Male</label>
+      <input type="radio" class="radio" name="gender" id="female" >
+      <label for="text" class="lb_r">Female</label><br>
+     
+
+      <label for="city" class="lbl" >City</label>
+      <select class="etarea" id="drp_city">
+        <option selected >Attock</option>
+        <option>Rawalpindi</option>
+        <option>Lahore</option>
+        <option>Karachi</option>
+      </select><br>
+
+      <label for="picture" class="lbl" >Upload Photo</label>
+      <input type="file" name="picture" id="photo" class="etarea" required><br>
+
+      <label for="user" class="lbl" >Username</label>
+      <input type="text" placeholder="Enter Username" name="name" id="user" class="etarea" required><br>
+  
+      <label for="psw" class="lbl">Password</label>
+      <input type="password" placeholder="Create Password" name="psw" id="psw" class="etarea" required><br>  
+  
+      <label for="psw-repeat" class="lbl">Repeat Password</label>
+      <input type="password" placeholder="Conform Password" name="psw-repeat" id="psw-repeat" class="etarea" required><br>
+      <br>
+      <button type="submit" class="registerbtn">Register</button>
+    </div>
+  
+    <div class="signin">
+      <p>Already have an account? <a href="login.html">login in</a> </p>
+    </div>
+  </form>
+  
+</body>
+</html>
